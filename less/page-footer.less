@@ -1,0 +1,76 @@
+.page-footer {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #cdcdcd;
+}
+
+.page-footer__wrapper {
+  .clearfix();
+  padding: 10px 75px;
+}
+
+.page-footer__phones,
+.page-footer__email,
+.page-footer__git,
+.page-footer__logo {
+  display: inline-block;
+}
+
+.page-footer__phones {
+  padding-top: 25px;
+  margin-right: 85px;
+}
+
+.page-footer__phone-style {
+  display: block;
+  margin-left: 13px;
+  margin-top: 15px;
+  line-height: 22px;
+}
+
+.page-footer__email {
+  padding-top: 25px;
+  margin-right: 115px;
+  vertical-align: top;
+}
+
+.page-footer__email-style {
+  display: block;
+  margin-top: 15px;
+  line-height: 22px;
+}
+
+.page-footer__git {
+  padding-top: 25px;
+  max-width: 180px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.page-footer__git-link {
+  display: inline-block;
+  font-size: 0;
+  width: 70px;
+  height: 70px;
+  background: transparent url("../img/git-icon.png") no-repeat 12px 12px;
+
+  border: 1px solid transparent;
+  border-radius: 50%;
+
+  &:hover {
+    animation-name: icon_border, icon_bg;
+    animation-duration: 1s, 1.5s;
+    animation-fill-mode: forwards;
+  }
+}
+
+.page-footer__logo {
+  float: right;
+  padding-top: 9px;
+  margin-right: 25px;
+}
+
+.page-footer__logo img {
+  vertical-align: middle;
+}

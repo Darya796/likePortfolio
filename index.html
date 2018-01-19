@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>likePortfolio</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="content-wrapper">
+
+
+
+  <header class="page-header">
+      <span class="page-header__title">l<b class="title__font-opacity">ike</b>P<b class="title__font-opacity  margin-left">ortfolio</b>
+      </span>
+      <div class="page-header__logo">
+        <img src="img/logo-geometry.png" width="594" height="327"
+      alt="likePortfolio">
+      </div>
+  </header>
+
+
+
+  <section class="prelude">
+    <div class="prelude__wrapper">
+      <div class="prelude__photo-container">
+        <img src="img/author-photo.png" width="120" height="120"
+      alt="Мое фото">
+      </div>
+
+      <p class="prelude__say-hello">Приветствую!<br>Надеюсь, вы забрели сюда не случайно и согласитесь посмотреть мои работы.<br>Они свёрстаны с любовью :)</p>
+
+      <h2 class="prelude__title">Сначала, немного обо мне:</h2>
+      <p class="prelude__text">С точки зрения реализации коммерческих проектов - я начинающий фронтендер, однако в одном из своих проектов уже научилась:</p>
+
+      <ul class="prelude__list">
+        <li class="prelude__item">применять технологию БЭМ;</li>
+        <li class="prelude__item">работать  с препроцессором;</li>
+        <li class="prelude__item">автоматизировать процесс верстки;</li>
+        <li class="prelude__item">оптимизировать код и вложения, чтобы максимально ускорить отрисовку страницы;</li>
+        <li class="prelude__item">внедрять Flexbox для создания адаптивных резиновых сайтов;</li>
+        <li class="prelude__item">подключать библиотеки JQuery;</li>
+        <li class="prelude__item">работать с системой контроля версий Git и еще много чего.</li>
+      </ul>
+      <p class="prelude__text">Мне нравится это направление, так как при создании макета или на этапе верстки страницы можно использовать фантазию на полную и создавать красивые проекты.</p>
+    </div>
+  </section>
+
+
+
+  <section class="promo">
+    <div class="promo__wrapper">
+
+      <h2 class="promo__title">Адаптивный Barbershop Borodinski</h2>
+
+      <span class="month-label">Работа месяца</span>
+
+      <div class="promo__preview">
+        <img src="img/promo.png" width="1203" height="729"
+      alt="Фото проекта">
+      </div>
+
+      <div class="promo__text-wrapper-left">
+        <p class="promo__paragraph">Проект представляет собой сайт мастерской, занимающейся исключительно мужскими стрижками. Страницы сверстаны адаптивно с резиновой сеткой, которая перестраивается на соответствующих ширинах вьюпортов с помощью медиавыражений:</p>
+      <ul class="promo__list  promo__list--close">
+        <li class="promo__item">мобильное уствойство: ширина до 767px;</li>
+        <li class="promo__item">планшет: ширина от 768px;</li>
+        <li class="promo__item">версия для рабочего стола: от 1200px.</li>
+      </ul>
+
+      <p class="promo__paragraph  promo__paragraph--bold">В процессе были изучены:</p>
+      <ul class="promo__list">
+        <li class="promo__item">адаптивность графики, чтобы загружать контентные изображения для мобильного, планшетного или десктопного разрешения на соответствующих ширинах вьюпортов;</li>
+        <li class="promo__item">графика для высокой плотности пикселей. Производилась подготовка растровых изображений для экранов с повышенной плотностью пикселей. Для наглядности на них добавлен полупрозрачный шрифт «х2»;</li>
+        <li class="promo__item">«нежная ретинизация». Загрузка изображений с повышенным разрешением происходит только на устройствах, с ретиновыми экранами, в то время, как устройства со стандартной плотность пикселей загружают обычные изображения. Это пример прогрессивного улучшения;</li>
+        <li class="promo__item">работа с препроцессорами, использование медиавыражений, примесей, переменных;</li>
+        <li class="promo__item">использование инструмента для автоматизации Gulp;</li>
+        <li class="promo__item">работа с Node.js, с помощью которого запускался сервер.</li>
+      </ul>
+      </div>
+
+
+      <div class="promo__text-wrapper-right">
+           <p class="promo__paragraph  promo__paragraph--bold">В рамках проекта реализовано:</p>
+
+           <ul class="promo__list">
+             <li class="promo__item">именование классов и создание пространства имен согласно методологии БЭМ;</li>
+             <li class="promo__item">при стилизации наполнения сайта, использовался препроцессор LESS;</li>
+             <li class="promo__item">адаптивность графики;</li>
+             <li class="promo__item">графика для высокой плотности пикселей;</li>
+             <li class="promo__item">«нежная ретинизация»;</li>
+             <li class="promo__item">подключение нестандартного шрифта;</li>
+             <li class="promo__item">предусмотрено использование альтернативного «безопасного» шрифта;</li>
+             <li class="promo__item">использование спрайтов для ускорения загрузки страницы и уменьшения количества запросов на сервер;</li>
+             <li class="promo__item">для фоновых изображений предусмотрен альтернативный усредненный цвет;</li>
+             <li class="promo__item">минификация  CSS и JS для более быстрой загрузки страницы;</li>
+             <li class="promo__item">слайдер переключения блоков с информацией на мобильной версии, реализованный средствами CSS;</li>
+             <li class="promo__item">стилизация стандартных input;</li>
+             <li class="promo__item">CSS анимация для оживления всплывающего окна авторизации;</li>
+             <li class="promo__item">предусмотрен отключенный JS для главной навигации в мобильной версии. В этом случае отображаться будут все пункты меню, а не только активный.</li>
+           </ul>
+
+           <p class="sedona__paragraph">На каждой странице также фиксированно расположена ссылка, которая возвращает обратно на страницу портфолио.</p>
+
+      </div>
+
+      <a class="promo__link-to-page" href="#">Перейти на страницу</a>
+    </div>
+  </section>
+
+
+
+  <section class="sedona">
+    <div class="sedona__wrapper">
+
+      <div class="sedona__preview">
+        <img src="img/sedona.png" width="458" height="465"
+      alt="Фото проекта">
+      </div>
+
+      <div class="sedona__text-wrapper">
+        <h2 class="sedona__title">Фиксированный проект Sedona</h2>
+
+        <p class="sedona__paragraph">Сайт посвящен путешествию в заповедник Седоны в Техасе.<br> Всего сверстано 2 страницы, главная и страница поиска гостиниц.</p>
+           <p class="sedona__paragraph  sedona__paragraph--bold">В рамках проекта реализовано:</p>
+
+        <ul class="sedona__list">
+          <li class="sedona__item">сетка с фиксированной шириной 1200px;</li>
+          <li class="sedona__item">подключение нестандартного шрифта;</li>
+          <li class="sedona__item">предусмотрено использование альтернативного «безопасного» шрифта на случай, если первый не загрузится;</li>
+          <li class="sedona__item">возврат на главную страницу по клику на логотип;</li>
+          <li class="sedona__item">использование спрайтов для ускорения загрузки страницы и уменьшения количества запросов на сервер;</li>
+          <li class="sedona__item">для фоновых изображений предусмотрен альтернативный усредненный цвет на случай, если изображения не загрузятся;</li>
+          <li class="sedona__item">минификация  CSS и JS для ускорения загрузки страницы;</li>
+          <li class="sedona__item">стилизация стандартных input;</li>
+          <li class="sedona__item">подключение библиотеки JQuery и последующая стилизация слайдера диапазона цен.</li>
+        </ul>
+
+        <p class="sedona__paragraph">На страницах также фиксированно расположена ссылка, которая возвращает обратно на страницу портфолио.</p>
+      </div>
+
+      <a class="sedona__link-to-page" href="#">Перейти на страницу</a>
+
+    </div>
+  </section>
+
+
+
+  <section class="gllacy">
+    <div class="gllacy__wrapper">
+
+      <div class="gllacy__text-wrapper">
+        <h2 class="gllacy__title">Фиксированный проект Gllacy</h2>
+
+        <p class="gllacy__paragraph">Главная страница представляет собой магазин мороженого, в котором реализовано:</p>
+
+        <ul class="gllacy__list">
+          <li class="gllacy__item">сетка с фиксированной шириной 1200px;</li>
+          <li class="gllacy__item">подключение нестандартного шрифта;</li>
+          <li class="gllacy__item">предусмотрено использование альтернативного «безопасного» шрифта на случай, если первый не загрузится;</li>
+          <li class="gllacy__item">использование спрайтов для ускорения загрузки страницы и уменьшения количества запросов на сервер;</li>
+          <li class="gllacy__item">минификация  CSS для ускорения загрузки страницы;</li>
+          <li class="gllacy__item">слайдер переключения фоновых изображений с мороженым и смена фонового цвета на чистом CSS;</li>
+          <li class="gllacy__item">CSS анимация при смене слайдов.</li>
+        </ul>
+
+        <p class="gllacy__paragraph">На странице также фиксированно расположена ссылка, которая возвращает обратно на страницу портфолио.</p>
+      </div>
+
+      <div class="gllacy__preview">
+        <img src="img/gllacy.png" width="592" height="562"
+      alt="Фото проекта">
+      </div>
+
+      <a class="gllacy__link-to-page" href="#">Перейти на страницу</a>
+
+    </div>
+  </section>
+
+
+
+  <section class="barbershop-fixed">
+    <div class="barbershop-fixed__wrapper">
+
+      <div class="barbershop-fixed__preview">
+        <img src="img/barbershop.png" width="632" height="510"
+      alt="Фото проекта">
+      </div>
+
+      <div class="barbershop-fixed__text-wrapper">
+        <h2 class="barbershop-fixed__title">Фиксированный проект Barbershop Borodinski</h2>
+
+        <p class="barbershop-fixed__paragraph">Проект просвящен мастерской, занимающейся мужскими стрижками. Готовых страниц 6:</p>
+        <ul class="barbershop-fixed__list  barbershop-fixed__list--close">
+          <li class="barbershop-fixed__item">главная;</li>
+          <li class="barbershop-fixed__item">прайс-лист;</li>
+          <li class="barbershop-fixed__item">магазин;</li>
+          <li class="barbershop-fixed__item">страница товара (первого);</li>
+          <li class="barbershop-fixed__item">страница входа в личный кабинет и страница с картой.</li>
+        </ul>
+        <p class="barbershop-fixed__paragraph  barbershop-fixed__paragraph--bold">В рамках проекта реализовано:</p>
+
+        <ul class="barbershop-fixed__list">
+          <li class="barbershop-fixed__item">сетка с фиксированной шириной 1200px;</li>
+          <li class="barbershop-fixed__item">подключение нестандартного шрифта;</li>
+          <li class="barbershop-fixed__item">предусмотрено использование альтернативного «безопасного» шрифта;</li>
+          <li class="barbershop-fixed__item">возврат на главную страницу по клику на логотип;</li>
+          <li class="barbershop-fixed__item">использование спрайтов;</li>
+          <li class="barbershop-fixed__item">для фоновых изображений предусмотрен альтернативный усредненный цвет;</li>
+          <li class="barbershop-fixed__item">минификация  CSS и JS;</li>
+          <li class="barbershop-fixed__item">стилизация стандартных input;</li>
+          <li class="barbershop-fixed__item">CSS анимация социальных кнопок в подвале и всплывающих окон;</li>
+          <li class="barbershop-fixed__item">предусмотрен отключенный JS для всплывающих форм. В этом случае ссылка ведет на отдельную страницу;</li>
+        </ul>
+
+        <p class="barbershop-fixed__paragraph">На каждой странице также фиксированно расположена ссылка, которая возвращает обратно на страницу портфолио.</p>
+      </div>
+
+      <a class="barbershop-fixed__link-to-page" href="#">Перейти на страницу</a>
+
+    </div>
+  </section>
+
+
+
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <p class="page-footer__phones">
+        Телефоны
+        <span class="page-footer__phone-style">Киевстар: +38 (096) 559-46-95<br>
+          Vodafone: +38 (050) 925-13-49
+        </span>
+      </p>
+      <p class="page-footer__email">
+        Почта
+        <b class="page-footer__email-style">dashutkadevi@gmail.com</b>
+      </p>
+      <p class="page-footer__git">
+        Ссылка на мой гитхаб
+        <a class="page-footer__git-link"
+        href="https://github.com/Darya796">Darya796
+      </a>
+    </p>
+      <div class="page-footer__logo">
+        <img src="img/logo-mini.png" width="138" height="106"
+      alt="likePortfolio">
+      </div>
+    </div>
+  </footer>
+
+
+
+  </div>
+
+</body>
+</html>

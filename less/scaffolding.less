@@ -1,0 +1,114 @@
+@font-face {
+  font-weight: normal;
+  font-family: "Myriad Pro";
+  font-style: normal;
+
+  src: url("../fonts/myriadpro-regular.woff2")
+  format("woff2"),
+  url("../fonts/myriadpro-regular.woff")
+  format("woff"),
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Myriad Pro";
+  font-style: normal;
+
+  src: url("../fonts/myriadpro-bold.woff2")
+  format("woff2"),
+  url("../fonts/myriadpro-bold.woff")
+  format("woff"),
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Bodoni MT";
+  font-style: normal;
+
+  src: url("../fonts/BOD_B.woff2")
+  format("woff2"),
+  url("../fonts/BOD_B.woff")
+  format("woff"),
+}
+
+
+
+@keyframes border_opacity {
+  20% {
+    border-bottom-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+  }
+  40% {
+    border-right-color: #ffffff;
+    box-shadow: 5px 0 10px rgba(255, 255, 255, 0.2);
+  }
+  60% {
+    border-top-color: #ffffff;
+    box-shadow: 0 -5px 10px rgba(255, 255, 255, 0.2);
+  }
+  80% {
+    border-left-color: #ffffff;
+    box-shadow: -5px 0 10px rgba(255, 255, 255, 0.2);
+  }
+}
+
+@keyframes btn_bg {
+  50% {
+    background-color: transparent;
+    color: #ffffff;
+  }
+  100% {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 0px 30px rgba(255, 255, 255, 0.4);
+  }
+}
+
+@keyframes icon_border {
+  20% {
+    border-bottom-color: #000000;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+  }
+  40% {
+    border-right-color: #000000;
+    box-shadow: 5px 0 10px rgba(255, 255, 255, 0.2);
+  }
+  60% {
+    border-top-color: #000000;
+    box-shadow: 0 -5px 10px rgba(255, 255, 255, 0.2);
+  }
+  80% {
+    border-left-color: #000000;
+    box-shadow: -5px 0 10px rgba(255, 255, 255, 0.2);
+  }
+}
+
+@keyframes icon_bg {
+  40% {
+    background: transparent url("../img/git-icon.png") no-repeat 12px 12px;
+  }
+  100% {
+    background: #000000 url("../img/git-icon-2.png") no-repeat 12px 12px;
+  }
+}
+
+
+
+body {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+  color: #ffffff;
+  // font-style: normal;
+
+  background-color: @bg-lightgrey;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 0;
+}
